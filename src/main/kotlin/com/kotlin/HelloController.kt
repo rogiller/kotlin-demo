@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController
 class HelloController {
 
     @GetMapping("")
-
     fun sayHello() = "Hello From Kotlin & Spring Boot!"
 
 }
